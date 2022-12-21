@@ -1,0 +1,56 @@
+td{
+	width:75px;
+	border:1px solid black;
+	align-items:center;
+    text-align: center;
+    
+}
+
+.noBorder{
+    border:none;
+}
+
+*{
+    margin :0;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.post-Transition-Metal{
+
+ background-color: palegreen;
+}
+.halogen
+{
+    background-color: blanchedalmond;
+}
+.transition-metal{
+    background-color: rgb(194, 241, 239);
+}
+.metalloid{
+    background-color: rgb(234, 249, 230);
+}
+
+ .non-metal {
+   background-color: rgb(230, 230, 63);
+        
+  }
+  .Lanthanide{
+    background-color:rgba(154, 210, 230, 0.532);
+  }
+.Actinide
+{
+    background-color:rgba(204, 241, 112, 0.532);
+}
+
+        
+ .Nobelgas {
+      background-color: #edb7a3;
+    }
+        
+.alkali-metal {
+       background-color: coral;
+    }
+        
+ .alkaline-earth-metal {
+      background-color: rgb(210, 181, 238);
+    }
