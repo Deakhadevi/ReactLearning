@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #030303;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    }
+.Header {
+    background-color: #363636;
+    display: flex;
+    }
+h1{
+        color: whitesmoke;
+        align-self: center;
+        margin-left: 28rem;
+        }
+.search {
+        margin: 3rem;
+        margin-left: 12rem;
+        background-color: transparent;
+        border: 2px solid #e9e9ec;
+        border-radius: 50px;
+        color: #fff;
+        font-family: inherit;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        }
+        
+.search::placeholder {
+         color: #7378c5;
+        }
+        
+.search:focus {
+        background-color: #050505;
+        outline: none;
+        }
+        
+ div {
+       display: flex;
+       flex-wrap: wrap;
+       }
+.overview {
+        background-color: #fff;
+        padding: 2rem;
+        position: absolute;
+        max-height: 100%;
+        overflow: auto;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: translateY(101%);
+        transition: transform 0.3s ease-in;
+      }
+.overview h3 {
+        margin-top: 0;
+        }       
+
+ .container {
+    position: fixed;
+  }
+
+   
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }  
+.image-container {
+	 position:relative;
+	 transition: transform 0.2s;
+    width: 300px;
+    height: 500px;
+    padding: 50%;
+    background-color: lightgrey;
+    border: 2px solid red;
+
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.Footer{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #ffffff; 
+    height:20px; 
+    background-color: rgb(75, 75, 75); 
+    text-align:center; 
+
+}
+.Bodycontent{
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align:center; 
+    
+
+
+}
